@@ -4,8 +4,6 @@ LICENSE = "CLOSED & MIT"
 inherit packagegroup
 require include/gles-control.inc
 
-COMPATIBLE_MACHINE = "(salvator-x|ulcb|ebisu)"
-
 PACKAGES = " \
     packagegroup-wayland-community \
     packagegroup-graphics-renesas-proprietary \

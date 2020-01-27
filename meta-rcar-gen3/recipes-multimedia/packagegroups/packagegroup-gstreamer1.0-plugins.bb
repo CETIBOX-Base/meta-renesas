@@ -3,8 +3,6 @@ LICENSE = "MIT"
 
 require include/omx-control.inc
 
-COMPATIBLE_MACHINE = "(salvator-x|ulcb|ebisu)"
-
 DEPENDS = "gstreamer1.0 gstreamer1.0-plugins-base gstreamer1.0-plugins-good"
 DEPENDS += "gstreamer1.0-plugins-bad"
 DEPENDS += "gstreamer1.0-plugins-ugly"

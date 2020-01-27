@@ -4,7 +4,6 @@ LICENSE = "CLOSED"
 inherit distro_features_check
 
 REQUIRED_DISTRO_FEATURES = "adsp"
-COMPATIBLE_MACHINE = "(salvator-x|ulcb|ebisu)"
 
 SRC_URI = "file://RCG3AHFWN0201ZDP.tar.gz"
 

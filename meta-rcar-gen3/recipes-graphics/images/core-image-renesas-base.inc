@@ -1,7 +1,5 @@
 require include/iccom-control.inc
 
-COMPATIBLE_MACHINE = "(salvator-x|ulcb|ebisu)"
-
 # WORKAROUND for boot issue since systemd v243
 # Set default.target to graphical.target
 SYSTEMD_DEFAULT_TARGET = "graphical.target"
